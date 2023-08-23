@@ -1,0 +1,150 @@
+*{   /* Selecionei tudo, e tirei as propriedades geradas pelo Browser*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+.center{ /* selecionando a div 'center' para poder estilizar o mesmo*/
+    display: flex;/*para alinhar um ao lado do outro*/
+    max-width: 1100px; /* Limitando a largura da Págna*/
+    margin: 0 auto;
+    padding: 0 2%; /* adicionei para nao ficar grudado ao lado da tela*/
+    flex-wrap: wrap;
+
+}
+
+.sobre-o-header{     /* Selecionando a div 'sobre-o-header' para poder estilizar o mesmo*/
+    width: 100%;     /*deixando a largura em 100%*/
+    background-color: rgb(235, 235, 235);  /* Mudando a cor do meu Background*/
+    border-radius: 10px;
+}
+.sobre-o-header p{ /* selecioando a div 'p'= paragrafo */
+    text-align: center; /*alinhando o texto ao centro*/
+    color: rgb(44, 44, 44); /* adicionando a cor branca ao meu texto*/
+    padding: 25px;   /*definindo a distancia do do meu texto para o background*/
+
+}
+
+
+header h2 span{ /* selecionando a div diferente 'span'*/
+    font-size: 35px; /* adicionando tamanho a palavra "Jornal" diferenciando da palavra " Geek"*/
+    color: red; /* adicionando cor a palavra " Jornal"*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*trocando a fonte de texto*/
+    
+}
+
+header h2{ /* selecionando a div */
+    font-size: 28px; /* Adicionando tamanho a a palavra "Geek" diferenciando da palavra "jORNAL"*/
+    color: black; /*Adicionando cor a aplavra "Jornal"*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*trocando a fonte do texto*/
+}
+
+
+.logo{/* Selecionando a div 'logo'*/
+    margin-top: 10px;
+}
+
+.waraper-header{
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+
+}
+
+.menu-main{ /* selecionando a div*/
+    width: 100%; /* adicionando largura */
+    background-color: rgb(108, 255, 255); /* adicionando cor ao background*/
+    padding: 20px; /* adicionando para dar um espaço*/
+    text-align: center; /*alinhando texto no centro */
+    font-size: 20px; /*redimensionando o tamanho da fonte*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*aidiconando fonte de texto*/
+    border-radius: 30px; /*customizando a borda e deixando arredondada*/
+    
+}
+
+.menu-main a{ /* selecionando a div 'a' do meu "menu-main"*/
+    display: inline-block; /* adicionando 'inline-block para conseguir aplicar margin*/
+    margin: 0 10px; /* adicionando margin*/
+    color: rgb(0, 0, 0); /* adicionando cor ao texto*/
+    text-decoration: none; /* tirando o text decoration*/
+
+}
+
+.menu-main a:hover{ /* adicionando um hover para quando passar o cursor em cima do menu o mesmo mudar de cor*/
+    color: red; /* adicionando a cor*/
+    text-decoration: underline; /* adicionando para que fique com underline também*/
+
+}
+
+article{
+    border: 1px solid rgb(59, 59, 59);
+    padding: 7px;
+}
+
+.the-witcher h3{ /* selecionando a div*/
+    font-size: 25px; /* mudando tamanho da fonte*/
+}
+.texto-1 a{ /*selecionando a div*/
+    text-decoration: none; /*tirando decoração de texto com 'none' */
+    color:blue; /*selecionando a cor */
+}
+.texto-1 a:hover{ /* selecionando a div com 'hover'*/
+    color: rgb(255, 84, 84); /*selecionando cor para quando passar o curso pelo texto*/
+    text-decoration: underline;
+}
+
+
+
+/* peguei essa ideia no tiktok, e decidi colocar no meu projeto  */
+
+.gallery{ /* selecionando a div*/
+    display: flex; /*adiconando 'display:flex para ficar as imagens uma ao lado da outra*/
+    width: 100%; /* adicionando largura - largura 100%*/
+    height: 100%;/*adicionando largura - largura 100%*/
+}
+img{ /*selecionando div*/
+    aspect-ratio: 9/16; /*adicionando um aspecto a imagem de 9/16*/
+    min-width: 0; /* adicionando largura minima*/
+    flex: 1 1 10px; /* adicionando 'flex' para de adaptar a caixa*/
+    object-fit: cover; /**/
+    opacity: .5;
+    transition: .5;
+}
+img:hover{
+    flex: 1 1 30px;
+    opacity: 1;
+}
+
+.the-walking-dead  h3{
+    font-size: 25px;
+}
+.the-100 h3{
+    font-size: 25px;
+}
+.supernatural h3{
+    font-size: 25px;
+}
+.peakyblinders h3{
+    font-size: 25px;
+}
+.fortnite h3{
+    font-size: 25px;
+}
+.valorant h3{
+    font-size: 25px;
+}
+.minecraft h3{
+    font-size: 25px;
+}
+.apex h3{
+    font-size: 25px;
+}
+.cs h3{
+    font-size: 25px;
+}
+
+
