@@ -1,4 +1,4 @@
-# JornaGeekProa
+# JornalGeekProa
 
 Meu primeiro Projeto usando html/css. 
 
