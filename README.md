@@ -2,7 +2,7 @@
 
 Meu primeiro Projeto usando html/css. 
 
-Adicionei alguns comentários ao código para poder me auxiliar durante o processo de criação do mesmo  
+Adicionei alguns comentários ao código para poder me auxiliar durante o processo de criação.
 
 
 Objetivo do Projeto:
